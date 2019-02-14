@@ -1,0 +1,27 @@
+{
+	"name": "campaign",
+	"version": "0.0.1",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha",
+		"compile": "node ethereum/compile.js",
+		"deploy": "node ethereum/deploy.js",
+		"dev": "node server.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"fs-extra": "^7.0.1",
+		"ganache-cli": "^6.2.3",
+		"mocha": "^5.2.0",
+		"next": "^4.1.4",
+		"next-routes": "^1.4.2",
+		"react": "^16.7.0",
+		"react-dom": "^16.7.0",
+		"semantic-ui-react": "^0.84.0",
+		"solc": "^0.5.1",
+		"truffle-hdwallet-provider": "^1.0.1",
+		"web3": "^1.0.0-beta.37"
+	}
+}
