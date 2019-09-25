@@ -12,16 +12,22 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"fs-extra": "^7.0.1",
-		"ganache-cli": "^6.2.3",
-		"mocha": "^5.2.0",
-		"next": "^4.1.4",
+		"fs-extra": "^8.1.0",
+		"ganache-cli": "^6.7.0",
+		"mocha": "^6.2.0",
+		"next": "^9.0.6",
 		"next-routes": "^1.4.2",
-		"react": "^16.7.0",
-		"react-dom": "^16.7.0",
-		"semantic-ui-react": "^0.84.0",
-		"solc": "^0.5.1",
-		"truffle-hdwallet-provider": "^1.0.1",
-		"web3": "^1.0.0-beta.37"
+		"node-gyp": "^5.0.3",
+		"react": "^16.9.0",
+		"react-dom": "^16.9.0",
+		"semantic-ui-react": "^0.88.1",
+		"solc": "^0.5.11",
+		"truffle-hdwallet-provider": "^1.0.17",
+		"typescript": "^3.6.3",
+		"web3": "^1.2.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/iftifar-taz/campaign-dapp.git"
 	}
 }
